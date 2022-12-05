@@ -13,7 +13,7 @@ type Solvable interface {
 }
 
 var solutions = map[int]Solvable{
-	0: template.Solution 
+	0: template.Solution{},
 }
 
 func main() {
