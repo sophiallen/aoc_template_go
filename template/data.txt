@@ -1,2 +1,2 @@
-Put data from the daily
-problem here. 
+Hello world!
+Challenge data goes here. 

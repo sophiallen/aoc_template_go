@@ -19,7 +19,7 @@ var solutions = map[int]Solvable{
 
 func main() {
 	// change day value to switch the solution that runs
-	const day = 1
+	const day = 0
 	solution := solutions[day]
 	fileScanner, reader := openFile(solution.GetDataPath())
 	solution.Solve(fileScanner)

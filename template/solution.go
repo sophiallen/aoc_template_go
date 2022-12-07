@@ -5,10 +5,10 @@ import (
 	"fmt"
 )
 
-type Solution struct {}
+type Solution struct{}
 
 func (s Solution) GetDataPath() string {
-	return ""
+	return "template/data.txt"
 }
 
 func (s Solution) Solve(scanner *bufio.Scanner) {
